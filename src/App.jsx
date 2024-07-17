@@ -1,16 +1,18 @@
-import { useState } from 'react'
-
+import { useState } from "react";
+import NavBar from "./components/Navbar/NavBar";
+import Hero from "./components/HeroSection/Hero";
+import WelcomeComponent from "./components/WelcomeSection/WelcomeComponent";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-
-      <h1>PadelCourt - Landing Page </h1>
-
+      <NavBar />
+      <Hero />
+      <WelcomeComponent />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

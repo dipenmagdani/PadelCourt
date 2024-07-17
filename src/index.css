@@ -1,19 +1,17 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "DrukWide";
+  src: url('../public/assets/fonts/DrukWide-Heavy-Trial.otf');
+}
+@font-face {
+  font-family: "Hate Your Writing";
+  src: url('../public/assets/fonts/HateYourWriting.ttf');
 }
 
-h1{
-  display: flex;
-  justify-content: center;
+body {
+  background-color: black;
 }
